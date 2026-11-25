@@ -7,14 +7,14 @@ export const site = {
   brandAr: "جرانديور سبيسز",
   developer: "تطوير مصر",
   developerEn: "Tatweer Misr",
-  domain: "https://tatweer-misr.example.com", // ← غيّرها للدومين الفعلي
+  domain: "https://tatweerprojects.org", // ← غيّرها للدومين الفعلي
   phone: "01001090433",
   phoneIntl: "+201001090433",
   whatsapp: "201001090433",
-  email: "leads@grandeur-spaces.com",
+  email: "leads@tatweerprojects.org",
 
   // ← حط مفتاح Web3Forms هنا. طول ما هو فاضي الفورم بيحوّل على الواتساب
-  web3formsKey: "",
+  web3formsKey: "e4c6f68f-4909-43ee-abec-268020bf37b0",
 
   // ← Google Ads (اختياري) — سيبها فاضية لو مش جاهزة
   googleAdsId: "", // مثال: AW-123456789
