@@ -7,14 +7,14 @@ export const site = {
   brandAr: "جرانديور سبيسز",
   developer: "تطوير مصر",
   developerEn: "Tatweer Misr",
-  domain: "https://tatweer-misr.example.com", // ← غيّرها للدومين الفعلي
+  domain: "https://tatweerprojects.org", // ← غيّرها للدومين الفعلي
   phone: "01001090433",
   phoneIntl: "+201001090433",
   whatsapp: "201001090433",
-  email: "leads@grandeur-spaces.com",
+  email: "leads@tatweerprojects.org",
 
   // ← حط مفتاح Web3Forms هنا. طول ما هو فاضي الفورم بيحوّل على الواتساب
-  web3formsKey: "",
+  web3formsKey: "e4c6f68f-4909-43ee-abec-268020bf37b0",
 
   // ← Google Ads (اختياري) — سيبها فاضية لو مش جاهزة
   googleAdsId: "", // مثال: AW-123456789
@@ -88,8 +88,8 @@ export const projects: Project[] = [
     h1b: "فيلتك جاهزة في المستقبل سيتي",
     heroSub:
       "كمبوند فيلات بالكامل على 100 فدان بين البحيرات والمساحات الخضراء — تاون هاوس، توين هاوس وفيلات مستقلة كاملة التشطيب.",
-    startsFrom: "15",
-    startsFromNum: 15_000_000,
+    startsFrom: "16.5",
+    startsFromNum: 16_500_000,
     ready: true,
     hero: `${S}/hero.webp`,
     cardImg: `${S}/hero.webp`,
@@ -108,7 +108,7 @@ export const projects: Project[] = [
       { k: "جاهز", v: "للاستلام الفوري" },
     ],
     units: [
-      { name: "تاون هاوس ميدل", latin: "TOWNHOUSE", img: `${S}/townhouse.webp`, area: "165 م² + روف", chips: ["3 غرف", "جنينة خاصة", "روف"], price: "15,000,000", priceNum: 15_000_000 },
+      { name: "تاون هاوس ميدل", latin: "TOWNHOUSE", img: `${S}/townhouse.webp`, area: "165 م² + روف", chips: ["3 غرف", "جنينة خاصة", "روف"], price: "16,500,000", priceNum: 16_500_000 },
       { name: "تاون هاوس كورنر", latin: "TOWN CORNER", img: `${S}/villas.webp`, area: "185 م² + روف", chips: ["4 غرف", "جنينة أكبر", "روف"] },
       { name: "توين هاوس", latin: "TWIN HOUSE", img: `${S}/twin.webp`, area: "185 م² + روف", chips: ["4 غرف", "جنينة", "على البحيرة"] },
       { name: "فيلا مستقلة", latin: "STANDALONE", img: `${S}/standalone.webp`, area: "210 م² + روف", chips: ["4 غرف", "جنينة خاصة", "روف"] },
@@ -132,7 +132,7 @@ export const projects: Project[] = [
     },
     gallery: [`${S}/hero.webp`, `${S}/lounge.webp`, `${S}/twin.webp`, `${S}/terrace.webp`, `${S}/standalone.webp`, `${S}/greenway.webp`, `${S}/balcony.webp`, `${S}/townhouse.webp`],
     faq: [
-      { q: "أسعار سينز المستقبل سيتي بتبدأ من كام؟", a: "أسعار كمبوند سينز تطوير مصر بتبدأ من 15 مليون جنيه للتاون هاوس، والأسعار استرشادية وبتتغير حسب المساحة والموقع والمتاح." },
+      { q: "أسعار سينز المستقبل سيتي بتبدأ من كام؟", a: "أسعار كمبوند سينز تطوير مصر بتبدأ من 16.5 مليون جنيه للتاون هاوس، والأسعار استرشادية وبتتغير حسب المساحة والموقع والمتاح." },
       { q: "إيه نظام السداد في سينز؟", a: "الوحدات الجاهزة للاستلام الفوري بمقدم 10% فقط، وتقسيط الباقي على 9 سنين، مع سنة كاملة سماح قبل أول قسط." },
       { q: "إيه أنواع الوحدات المتاحة؟", a: "سينز كمبوند فيلات فقط: تاون هاوس ميدل وكورنر، توين هاوس، وفيلات مستقلة، كلها بروف." },
       { q: "سينز فين بالظبط؟", a: "في المستقبل سيتي امتداد القاهرة الجديدة، قريب من الدائري الأوسطي والجامعة الأمريكية والعاصمة الإدارية." },
@@ -150,8 +150,8 @@ export const projects: Project[] = [
     h1b: "استلم شاليهك على البحر الأحمر",
     heroSub:
       "قرية مستوحاة من بورتوفينو الإيطالية على 530 فدان فوق جبل الجلالة، كل الوحدات بإطلالة على البحر وأول لاجون فوق قمة جبل في العالم.",
-    startsFrom: "6",
-    startsFromNum: 6_000_000, // ← سعر استرشادي من السوق — عدّله لما يوصلك الرسمي
+    startsFrom: "13",
+    startsFromNum: 13_000_000, // ← سعر استرشادي من السوق — عدّله لما يوصلك الرسمي
     ready: true,
     hero: "/images/il-monte-galala/hero.webp",
     cardImg: "/images/il-monte-galala/hero.webp",
@@ -170,7 +170,7 @@ export const projects: Project[] = [
       { k: "جاهز", v: "للاستلام الفوري" },
     ],
     units: [
-      { name: "شاليه / ستوديو", latin: "CHALET", img: "/images/il-monte-galala/lagoon.webp", area: "من 60 م²", chips: ["إطلالة بحر", "كامل التشطيب"], price: "6,000,000", priceNum: 6_000_000 },
+      { name: "شاليه / ستوديو", latin: "CHALET", img: "/images/il-monte-galala/lagoon.webp", area: "من 60 م²", chips: ["إطلالة بحر", "كامل التشطيب"], price: "13,000,000", priceNum: 13_000_000 },
       { name: "شاليه بجاردن", latin: "GARDEN CHALET", img: "/images/il-monte-galala/delivered.webp", area: "من 105 م² + جاردن", chips: ["جنينة خاصة", "إطلالة بحر"] },
       { name: "شاليه تايبيكال", latin: "TYPICAL", img: "/images/il-monte-galala/balcony.webp", area: "95 – 126 م²", chips: ["2–3 غرف", "تراس على البحر"] },
       { name: "توين هاوس", latin: "TWIN HOUSE", img: "/images/il-monte-galala/aerial.webp", area: "من 173 م²", chips: ["جنينة", "إطلالة بحر"] },
@@ -194,7 +194,7 @@ export const projects: Project[] = [
     },
     gallery: ["/images/il-monte-galala/hero.webp", "/images/il-monte-galala/balcony.webp", "/images/il-monte-galala/aerial.webp", "/images/il-monte-galala/lagoon.webp", "/images/il-monte-galala/sea.webp", "/images/il-monte-galala/sunset.webp", "/images/il-monte-galala/pool.webp", "/images/il-monte-galala/delivered.webp"],
     faq: [
-      { q: "أسعار المونت جلالة بتبدأ من كام؟", a: "أسعار المونت جلالة العين السخنة بتبدأ من حوالي 6 مليون جنيه للشاليه، والأسعار استرشادية وبتتغير حسب المساحة والدور والإطلالة." },
+      { q: "أسعار المونت جلالة بتبدأ من كام؟", a: "أسعار المونت جلالة العين السخنة بتبدأ من حوالي 13 مليون جنيه للشاليه، والأسعار استرشادية وبتتغير حسب المساحة والدور والإطلالة." },
       { q: "إيه نظام السداد في المونت جلالة؟", a: "الوحدات الجاهزة للاستلام الفوري بمقدم 10%، وتقسيط الباقي على 9 سنين مع سنة سماح قبل أول قسط." },
       { q: "المونت جلالة فين؟", a: "في العين السخنة على طريق الزعفرانة، أول نزلة من طريق الجلالة، وحوالي نص ساعة من العاصمة الإدارية." },
     ],
@@ -271,8 +271,8 @@ export const projects: Project[] = [
     h1b: "استلم وحدتك في رأس الحكمة",
     heroSub:
       "12 جزيرة وسط كريستال لاجونز و7 كم شواطئ رملية في خليج رأس الحكمة — من تصميم 5+1AA وجيانلوكا بيلوفو.",
-    startsFrom: "9",
-    startsFromNum: 9_200_000, // ← سعر استرشادي من السوق
+    startsFrom: "14",
+    startsFromNum: 14_000_000, // ← سعر استرشادي من السوق
     ready: true,
     hero: "/images/fouka-bay/aerial.webp",
     cardImg: "/images/fouka-bay/aerial.webp",
@@ -291,7 +291,7 @@ export const projects: Project[] = [
       { k: "جاهز", v: "للاستلام الفوري" },
     ],
     units: [
-      { name: "شاليه", latin: "CHALET", img: "/images/fouka-bay/chalets.webp", area: "125 – 129 م²", chips: ["3 غرف", "إطلالة لاجون", "كامل التشطيب"], price: "9,200,000", priceNum: 9_200_000 },
+      { name: "شاليه", latin: "CHALET", img: "/images/fouka-bay/chalets.webp", area: "125 – 129 م²", chips: ["3 غرف", "إطلالة لاجون", "كامل التشطيب"], price: "14,000,000", priceNum: 14_000_000 },
       { name: "شاليه واسع", latin: "LAGOON RESIDENCES", img: "/images/fouka-bay/lagoon.webp", area: "165 – 190 م²", chips: ["3 غرف + مربية", "إطلالة بحر / لاجون"] },
       { name: "تاون هاوس / فيلا", latin: "VILLAS", img: "/images/fouka-bay/pool.webp", area: "حتى 280 م²", chips: ["جنينة", "على اللاجون"] },
     ],
@@ -314,7 +314,7 @@ export const projects: Project[] = [
     },
     gallery: ["/images/fouka-bay/aerial.webp", "/images/fouka-bay/sunset.webp", "/images/fouka-bay/lagoon.webp", "/images/fouka-bay/chalets.webp", "/images/fouka-bay/pool.webp", "/images/fouka-bay/night.webp", "/images/fouka-bay/beach.webp"],
     faq: [
-      { q: "أسعار فوكا باي بتبدأ من كام؟", a: "أسعار شاليهات فوكا باي الجاهزة بتبدأ من حوالي 9 مليون جنيه، والأسعار استرشادية وبتتغير حسب المساحة والإطلالة والمرحلة." },
+      { q: "أسعار فوكا باي بتبدأ من كام؟", a: "أسعار شاليهات فوكا باي الجاهزة بتبدأ من حوالي 14 مليون جنيه، والأسعار استرشادية وبتتغير حسب المساحة والإطلالة والمرحلة." },
       { q: "إيه نظام السداد في فوكا باي؟", a: "الوحدات الجاهزة للاستلام الفوري بمقدم 10%، وتقسيط الباقي على 9 سنين مع سنة سماح قبل أول قسط." },
       { q: "فوكا باي فين؟", a: "في رأس الحكمة، الكيلو 211 طريق إسكندرية مطروح، على بعد 75 كم من مرسى مطروح." },
     ],
@@ -331,8 +331,8 @@ export const projects: Project[] = [
     h1b: "استلم في الشيخ زايد الجديدة",
     heroSub:
       "100 فدان من الخضرة والمسطحات المائية في قلب نيو زايد — فيلات مستقلة وتوين وتاون هاوس، وشقق ودوبلكس في فيز ريفرسايد.",
-    startsFrom: "6.4",
-    startsFromNum: 6_400_000, // ← سعر استرشادي من السوق
+    startsFrom: "8.5",
+    startsFromNum: 8_500_000, // ← سعر استرشادي من السوق
     ready: true,
     hero: "/images/rivers/hero.webp",
     cardImg: "/images/rivers/hero.webp",
@@ -354,7 +354,7 @@ export const projects: Project[] = [
       { name: "فيلا مستقلة", latin: "STANDALONE", img: "/images/rivers/standalone.webp", area: "من 227 م²", chips: ["جنينة خاصة", "روف"] },
       { name: "توين هاوس", latin: "TWIN HOUSE", img: "/images/rivers/twin.webp", area: "من 205 م²", chips: ["جنينة", "روف"] },
       { name: "تاون هاوس", latin: "TOWNHOUSE", img: "/images/rivers/townhouse.webp", area: "من 180 م²", chips: ["جنينة", "روف"] },
-      { name: "شقق ودوبلكس ريفرسايد", latin: "RIVERSIDE", img: "/images/rivers/building.webp", area: "120 – 235 م²", chips: ["2–4 غرف"], price: "6,400,000", priceNum: 6_400_000 },
+      { name: "شقق ودوبلكس ريفرسايد", latin: "RIVERSIDE", img: "/images/rivers/building.webp", area: "120 – 235 م²", chips: ["2–4 غرف"], price: "8,500,000", priceNum: 8_500_000 },
     ],
     lifestyle: [
       { title: "مسطحات مائية", img: "/images/rivers/canal.webp" },
@@ -375,7 +375,7 @@ export const projects: Project[] = [
     },
     gallery: ["/images/rivers/hero.webp", "/images/rivers/plaza.webp", "/images/rivers/canal.webp", "/images/rivers/aerial.webp", "/images/rivers/townhouse.webp", "/images/rivers/twin.webp", "/images/rivers/standalone.webp", "/images/rivers/building.webp"],
     faq: [
-      { q: "أسعار ريفرز الشيخ زايد بتبدأ من كام؟", a: "أسعار كمبوند ريفرز الشيخ زايد الجديدة بتبدأ من حوالي 6.4 مليون جنيه للشقة 120 م²، والأسعار استرشادية وبتتغير حسب المساحة ونوع الوحدة." },
+      { q: "أسعار ريفرز الشيخ زايد بتبدأ من كام؟", a: "أسعار كمبوند ريفرز الشيخ زايد الجديدة بتبدأ من حوالي 8.5 مليون جنيه للشقة 120 م²، والأسعار استرشادية وبتتغير حسب المساحة ونوع الوحدة." },
       { q: "إيه نظام السداد في ريفرز؟", a: "الوحدات الجاهزة للاستلام الفوري بمقدم 10%، وتقسيط الباقي على 9 سنين مع سنة سماح قبل أول قسط." },
       { q: "ريفرز فين؟", a: "في الشيخ زايد الجديدة، 3 دقايق من مطار سفنكس و12 دقيقة من الشيخ زايد." },
     ],
